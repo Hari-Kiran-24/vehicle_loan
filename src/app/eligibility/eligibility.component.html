@@ -1,0 +1,152 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-2 col-12"></div>
+        <div class="col-md-8 col-12">
+            <form #myForm=ngForm>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="box">
+                            <h3 class="mb-3">Vehicle Details</h3>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="brand-name"> Brand Name</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="brand-name" name="brand-name" class="form-control" placeholder="Enter brand name" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="model-numer"> Model Number</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="model-numer" name="model-numer" class="form-control" placeholder="Enter model number" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="ex-showroom-price"> Ex-Showroom Price</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="ex-showroom-price" name="ex-showroom-price" class="form-control" placeholder="Enter ex-showroom price" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="onroad-price"> On Road Price</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="onroad-price" name="onroad-price" class="form-control" placeholder="Enter on road price" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="box">
+                            <h3 class="mb-3">Applicant Details</h3>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="first-name"> First Name</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="first-name" name="first-name" class="form-control" placeholder="Enter firstname" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="middle-name"> Middle Name</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="middle-name" name="middle-name" class="form-control" placeholder="Enter middlename" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="last-name"> Last Name</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="last-name" name="last-name" class="form-control" placeholder="Enter lastname" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="age"> Age</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="number" id="age" name="age" class="form-control" placeholder="Enter age" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="gender"> Gender</label>
+                                </div>
+                                <div class="col-6">
+                                    <span class="mr-3"><input type="radio" class="mr-1" name="gender" id="gender" required>Male</span>
+                                    <span class="mr-3"><input type="radio" class="mr-1" name="gender" id="gender" required>Female</span>
+                                    <span class="mr-3"><input type="radio" class="mr-1" name="gender" id="gender" required>Others</span>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="employment-status"> Employment Status</label>
+                                </div>
+                                <div class="col-6">
+                                    <select name="employment-status" class="form-control" id="employment-status" required>
+                                        <option value="" selected disabled="disabled">--select--</option>
+                                        <option value="employed">Employed</option>
+                                        <option value="selfemployed">Self-Employed</option>
+                                        <option value="outofwork">Out of Work</option>
+                                        <option value="student">Student</option>
+                                        <option value="retired">Retired</option>
+                                        <option value="unabletow">Unable to work</option>
+                                    </select>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="box">
+                            <h3 class="mb-3">Contact Details</h3>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="mobile-number"> Mobile Number</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="number" id="mobile-number" name="mobile-number" class="form-control" placeholder="Enter mobile number" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-3">
+                                    <label for="email"> Email ID</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter email ID" required/>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mb-3 mt-2">
+                    <button class="btn btn-primary" type="submit">Check Eligibility</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2 col-12"></div>
+    </div>
+</div>
